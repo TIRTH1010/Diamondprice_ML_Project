@@ -28,5 +28,5 @@ if __name__=="__main__":
     try:
         a=1/0
     except Exception as e:
-        logging.info('Dicision by zero') 
+        logging.info(f'exception occured = {e}') 
         raise CustomException(e,sys)
